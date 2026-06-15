@@ -1,0 +1,19 @@
+TESTE DE HIPOTESE - escalonamento negativo
+=======================================================
+H0: o tempo medio no numero maximo de processos NAO e maior
+    que o tempo medio na melhor condicao.
+H1: o tempo medio no numero maximo de processos E maior
+    (escalonamento negativo / saturacao).
+
+Melhor condicao  : 8 processo(s)  (media = 0.2137s, n = 30)
+Condicao maxima  : 12 processo(s)  (media = 0.2437s, n = 30)
+
+[t de Student / Welch, unilateral b>a]
+  t = 3.9977   p = 1.030e-04
+[Mann-Whitney U (Wilcoxon rank-sum), unilateral b>a]
+  U = 695.0   p = 1.503e-04
+
+CONCLUSAO: p < 0.05 nos dois testes -> REJEITA-SE H0.
+Ha evidencia de escalonamento negativo (ponto de saturacao).
+
+Tamanho de efeito (Cohen's d) = 1.032

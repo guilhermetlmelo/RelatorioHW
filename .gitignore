@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Temporarios de edicao
+*~
+*.tmp
+
+# Mantemos resultados/ versionados (dados brutos sao artefato exigido).
+# Se quiser ignorar saidas pesadas, descomente:
+# resultados/*.png
