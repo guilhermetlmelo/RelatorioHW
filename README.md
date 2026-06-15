@@ -156,10 +156,3 @@ python3 scripts/experimento_paralelismo.py --threads 1 2 4 8 12 --reps 35 --warm
 - **Média ± desvio-padrão** e **IC 95%** (distribuição t).
 - Testes de hipótese: **t de Welch** e **Mann–Whitney U**, unilaterais (α = 0,05); tamanho de efeito (Cohen's d).
 
----
-
-## Uso de IA
-
-Ferramentas de IA foram utilizadas como apoio à redação e à construção dos scripts,
-em conformidade com a política da disciplina. Os experimentos, os dados e a análise
-referem-se ao hardware do autor.
