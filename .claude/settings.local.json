@@ -1,7 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(python3 experimento_paralelismo.py --threads 1 2 4 8 12 --reps 35 --warmup 5 --carga 6000000 --perf --outdir resultados7)"
-    ]
-  }
-}
