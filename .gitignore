@@ -14,4 +14,4 @@ Thumbs.db
 
 # Mantemos resultados/ versionados (dados brutos sao artefato exigido).
 # Se quiser ignorar saidas pesadas, descomente:
-# resultados/*.png
+# resultados/*.png.claude/
